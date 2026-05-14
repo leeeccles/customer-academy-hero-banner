@@ -160,7 +160,7 @@
     .ca-visual {
       flex-shrink: 0;
       width: 310px;
-      height: 224px;
+      height: 174px;
       position: relative;
       z-index: 2;
     }
@@ -234,7 +234,7 @@
       font-weight: 700;
       color: white;
     }
-    .ca-check-icon.checked  { background: rgba(74, 222, 128, 0.90); }
+    .ca-check-icon.checked  { background: rgba(139, 92, 244, 0.85); }
     .ca-check-icon.pending  { border: 1.5px solid rgba(255, 255, 255, 0.35); background: transparent; }
 
     .ca-check-label {
@@ -254,30 +254,8 @@
     .ca-progress-fill {
       height: 100%;
       width: 67%;
-      background: linear-gradient(90deg, rgba(74, 222, 128, 0.90), rgba(34, 211, 238, 0.90));
+      background: linear-gradient(90deg, rgba(139, 92, 244, 0.85), rgba(196, 181, 253, 0.90));
       border-radius: 3px;
-    }
-
-    /* ── Graduation badge ──────────────────────────────────────── */
-    .ca-grad-badge {
-      position: absolute;
-      bottom: 8px;
-      right: 0;
-      width: 52px;
-      height: 52px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, #4ade80, #22d3ee);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 20px rgba(34, 211, 238, 0.40);
-      z-index: 3;
-    }
-    .ca-grad-badge svg {
-      width: 26px;
-      height: 26px;
-      color: #ffffff;
-      flex-shrink: 0;
     }
 
     /* ── Reduced motion ────────────────────────────────────────── */
@@ -375,8 +353,8 @@
             <!-- Purple segment -->
             <circle cx="0" cy="0" r="36" stroke="rgba(139,92,244,0.95)" stroke-width="13" fill="none"
               stroke-dasharray="83 143" stroke-dashoffset="0"/>
-            <!-- Green segment -->
-            <circle cx="0" cy="0" r="36" stroke="rgba(74,222,128,0.85)" stroke-width="13" fill="none"
+            <!-- Rose segment -->
+            <circle cx="0" cy="0" r="36" stroke="rgba(244,114,182,0.85)" stroke-width="13" fill="none"
               stroke-dasharray="53 173" stroke-dashoffset="-83"/>
             <!-- Blue segment -->
             <circle cx="0" cy="0" r="36" stroke="rgba(96,165,250,0.85)" stroke-width="13" fill="none"
@@ -427,12 +405,6 @@
         </div>
       </div>
 
-      <!-- Graduation cap badge -->
-      <div class="ca-grad-badge" aria-hidden="true">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-        </svg>
-      </div>
 
     </div>
 
